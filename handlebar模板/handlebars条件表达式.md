@@ -49,7 +49,7 @@ Welcome back, <b>{{model.name}}</b> !
 </div>
 ```
 
-这个`if`标签会根据属性`flag`的值判断是显示那个CSS类，如果`flag`的值不是`false`，不是`[]`空数组，也不是`null`，也不是`undefined`则`div`会加上CSS类`show`，模板编译之后的标签为`<div class="show">`，否则会加CSS类`hide`模板编译之后的标签为`<div class="hide">`。这样解释应该很容易理解了，其实说白了就一个`if`判断。没别的难点。。。
+这个`if`标签相当于一个`三元运算符`,只是省略了`?`和`:`,他会根据属性`flag`的值判断是显示那个CSS类，如果`flag`的值不是`false`，不是`[]`空数组，也不是`null`，也不是`undefined`则`div`会加上CSS类`show`，模板编译之后的标签为`<div class="show">`，否则会加CSS类`hide`模板编译之后的标签为`<div class="hide">`。这样解释应该很容易理解了，其实说白了就一个`if`判断。没别的难点。。。
 
 运行的时候需要注意两个地方，一个是浏览器执行的`URL`。如果你也是使用驼峰式的命名方式（创建命名：`ember generate route handlbarsConditionsExpRoute`），那你的`URL`跟我的是一样的，反正你只要记得执行的`URL`跟你创建的`route`的名称是一致的。当然这个名字是可以修改的。在`app/router.js`里面修改，在`Router.map`里的代码也是`Ember CLI`自动创建的。我们可以看到有一个`this.route('handlebarsConditionsExpRoute');`这个就是你的路由的名称。
 
