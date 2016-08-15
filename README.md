@@ -16,6 +16,7 @@ Ember Teach博客文章md文件。网址：http://blog.ddlisting.com
 ## 第一章 模板
 
   1. handlebars基础
+  2. 内置helper（v2.7.0）
   2. handlebars条件表达式
   3. handlebars遍历标签
   4. handlebars显示对象的键
