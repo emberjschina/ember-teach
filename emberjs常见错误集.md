@@ -51,7 +51,18 @@ ed
 ```
 解决办法：直接从github下载缺失的依赖包，比如上述错误是缺少`ember-cli-shims`，可以尝试直接从`https://github.com/ember-cli/ember-cli-shims.git`下载，然后复制到`bower_components`目录之下。
 
+**5. 项目启动出现'import' is only available in ES6 (use 'eversion: 6')错误**
 
+错误详细请看下图：
+
+!['import' is only available in ES6 (use 'eversion: 6')](http://blog.ddlisting.com/content/images/2016/08/1.png)
+
+解决办法：
+
+1. 项目下缺少文件`.jshintrc`，可以从其他ember项目直接复制过来
+2. 重新安装项目依赖，安装命令：`npm install`和`bower install`
+
+然后重启项目即可。
 
 参考网址：[https://github.com/ember-cli/ember-cli/issues/1418](https://github.com/ember-cli/ember-cli/issues/1418)
 
