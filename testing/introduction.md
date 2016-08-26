@@ -1,3 +1,5 @@
+英文原文：[https://guides.emberjs.com/v2.7.0/testing/](https://guides.emberjs.com/v2.7.0/testing/)
+
 # 测试简介
 
 > 测试是`Ember。js`框架开发环节中很重要的一环。
