@@ -1,5 +1,5 @@
 # ember-teach
-Ember Teach博客文章md文件。网址：http://blog.ddlisting.com
+Ember Teach博客文章md文件。网址：[http://xcoding.tech/tags/Emberjs/](http://xcoding.tech/tags/Emberjs/)
 
 **目录**
 
